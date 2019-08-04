@@ -21,5 +21,10 @@ namespace SupermarketAPI.Services
         {
             return await _categoryRepository.ListAsync();
         }
+
+        public Task<SaveCategoryResponse> SaveAsync(Category category)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
